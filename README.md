@@ -1,5 +1,7 @@
 # Order Creation & Dispatch Web App
 
+GitHub Repository: https://github.com/HamzaDsu/order_creation_dispatch_web_app.git
+
 A mini full-stack logistics web application for creating delivery orders, viewing them in a dashboard, assigning available drivers, and updating order delivery status.
 
 This project was built as part of a Full Stack Developer assignment. The goal was to demonstrate a clean and functional end-to-end flow for a logistics platform connecting shippers, dispatchers, and drivers.
@@ -100,14 +102,14 @@ When clicked, the order status changes from **Dispatched** to **Delivered**.
 * Local JSON-based persistence using LowDB
 * Mock driver data stored locally
 
-No authentication is included, as the assignment requested a simple implementation.
+No authentication is included because the assignment requested a simple implementation.
 
 ---
 
 ## Project Structure
 
 ```txt
-order-creation-dispatch-app/
+order_creation_dispatch_web_app/
 │
 ├── backend/
 │   ├── src/
@@ -163,8 +165,8 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
-cd order-creation-dispatch-app
+git clone https://github.com/HamzaDsu/order_creation_dispatch_web_app.git
+cd order_creation_dispatch_web_app
 ```
 
 ---
@@ -245,7 +247,7 @@ http://localhost:5173
 
 ## Important
 
-To run the full application, keep both servers running at the same time:
+To run the full application, keep both servers running at the same time.
 
 ### Terminal 1 — Backend
 
