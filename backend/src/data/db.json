@@ -1,0 +1,48 @@
+{
+  "orders": [
+    {
+      "id": "1fac9be8-a0f4-430f-b739-c78f5e7c13f3",
+      "pickupAddress": {
+        "street": "Noackstraße 36",
+        "city": "Darmstadt, Hesse, Germany",
+        "postalCode": "64285"
+      },
+      "deliveryAddress": {
+        "street": "Noackstraße 36",
+        "city": "Darmstadt, Hesse, Germany",
+        "postalCode": "64285"
+      },
+      "packageDescription": "small",
+      "scheduledPickupTime": "2026-07-03T14:17",
+      "priority": "Standard",
+      "status": "Delivered",
+      "createdAt": "2026-06-04T12:17:33.754Z",
+      "assignedDriver": {
+        "id": "driver-2",
+        "name": "Sara Ahmed",
+        "currentLocation": "Dresden",
+        "availabilityStatus": "Available"
+      }
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver-1",
+      "name": "Ali Khan",
+      "currentLocation": "Berlin",
+      "availabilityStatus": "Available"
+    },
+    {
+      "id": "driver-2",
+      "name": "Sara Ahmed",
+      "currentLocation": "Dresden",
+      "availabilityStatus": "Available"
+    },
+    {
+      "id": "driver-3",
+      "name": "John Smith",
+      "currentLocation": "Leipzig",
+      "availabilityStatus": "Busy"
+    }
+  ]
+}
